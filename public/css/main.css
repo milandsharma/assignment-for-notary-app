@@ -1,0 +1,106 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #fff;
+    width: 70vw;
+    height: 85vh;
+    margin: 5vh auto;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+.left{
+    width: 13vw;
+    height: 100%;
+    background-color: #381769;
+    border-radius: 10px 0 0 10px;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-weight: 600;
+}
+.left-top{
+    width:95%;
+    height: 30%;
+    text-align: center;
+    font-size: .7rem;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.left-bottom{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.left-bottom ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left:10px;
+}
+.left-bottom ul li{
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.left-bottom ul li span{
+    margin-left: 10px;
+    font-size: 10px;
+    color: #f5f5f5;
+}
+.left-top-image{
+    width:8em;
+    height: 8em;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 2vh;
+}
+.left-top-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.left-logo{
+   color: gold; 
+    font-size: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+}
+.left-logo span{
+    margin-left: 5px;
+}
+.left-logo span:first-child{
+   width: 2vw;
+   height: 2vw;
+    border-radius: 50%;
+    background-color: gold;
+    color:  #381769;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-top-text h3{
+    font-size: 1.5em;
+    margin-top: 2vh;
+}
